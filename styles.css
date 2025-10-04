@@ -11,6 +11,7 @@ header{
     display:flex;
     flex-direction: column;
     justify-content: space-evenly;
+    border-radius: 5px;
 }
 
 h1{
@@ -27,6 +28,7 @@ nav{
     border:solid;
     border-color:#D6001C;
     border-width: 5px;
+    border-radius: 5px;
 }
 
 nav img{
@@ -38,43 +40,55 @@ nav img{
     border-radius: 5px;
 }
 
-main{
+#main{
+    margin:10px;
+    padding: 10px;
     display:flex;
-    flex-direction: row;
     border:solid;
     border-color:#D6001C;
     border-width: 5px;
+    border-radius: 5px;
 }
 
 aside{
-    width:10%;
+    width:30%;
     display:flex;
     flex-direction: column;
-    justify-content: space-around;
     border:solid;
     border-color:#D6001C;
     border-width: 5px;
+    border-radius: 5px;
+    
 }
 
 aside img{
     width: 100px;
+    padding: 5px;
     border: solid;
     border-color:black;
-    padding: 5px;
     border-radius: 5px;
+}
+
+aside a{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
 }
 
 article{
     border:solid;
     border-color:#D6001C;
     border-width: 5px;
+    border-radius: 5px;
 }
 
-#hoger{
+#hoger img{
+    width:90%;
+    height:500px;
     border:solid;
     border-color:#D6001C;
     border-width: 5px;
-    
+    border-radius: 5px;
 }
 
 footer{
