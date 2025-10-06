@@ -51,14 +51,12 @@ nav img{
 }
 
 aside{
-    width:30%;
     display:flex;
     flex-direction: column;
     border:solid;
     border-color:#D6001C;
     border-width: 5px;
     border-radius: 5px;
-    
 }
 
 aside img{
@@ -76,19 +74,22 @@ aside a{
 }
 
 article{
+    
     border:solid;
     border-color:#D6001C;
     border-width: 5px;
     border-radius: 5px;
+    margin-left: 10px;
+    maRgin-right: 10px;
 }
 
-#hoger img{
-    width:90%;
-    height:500px;
+#hoger{
+    width:15%;
     border:solid;
     border-color:#D6001C;
     border-width: 5px;
     border-radius: 5px;
+    
 }
 
 footer{
